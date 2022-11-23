@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link href="/styles.css" rel="stylesheet">
+    <title>Contact Us</title>
+    <style>
+        section{
+           padding: 60px 0; 
+        }
+    </style>
+</head>
+<body class="bg-dark">
+    <!--navbar-->
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand text-start" href="index.html">
+                    <img src="/assets/LOGOsmall.png" alt="LOGO" class="d-inline-block align-text-bottom ps-3">
+                    <span class="fw-bold text-light">
+                        Seurahuone - Kohtaamispaikka
+                    </span>
+                </a>
+                <!--Buttor for mobile nav-->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!--navbar links -->
+                <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+                    <ul class="navbar-nav mt-5">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link"> Etusivu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="second.html" class="nav-link">Kumppanit</a>
+                        </li>
+                        <li class="nav-item d-md-none">
+                            <a href="third.html" class="nav-link">Ota Yhteyttä</a>
+                        </li>
+                        <li class="nav-item ms-2 d-none d-md-inline">
+                            <a href="third.html" class="btn btn-success">Ota Yhteyttä</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--3x Lead Characters-->
+    <section id="Characters">
+        <div class="container-lg text-center text-light">
+            <div class="row align-items-center">
+                <div class="col">
+                    <img src="/assets/sly.png" class="img-fluid bg-transparent" width="300" alt="Sly">
+                    <h2 class="display-5">Varas</h2>
+                  </div>
+                  <div class="col">
+                    <img src="/assets/bentley.png" class="img-fluid bg-transparent" width="280" alt="Bentley">
+                    <h2 class="display-5">Aivot</h2>
+                  </div>
+                  <div class="col">
+                    <img src="/assets/murray.png" class="img-fluid bg-transparent" width="420" alt="Murray">
+                    <h2 class="display-5">Lihakset</h2>
+                  </div>
+            </div>
+        </div>
+    </section>
+    <!--Contact Form-->
+    <section id="ContactForm">
+        <h2 class="opacity-0">AHAHAHHAHAHAHAH</h2>
+       <div class="container-lg text-center text-light">
+        <div class="row justify-content-center">
+            <div class="col-6 col-md-5 col-sm-4 text-light">
+                <div class="text-start fw-bold mb-3">
+                    <label for="email" class="form-label">Sähköposti</label>
+                    <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                </div>
+                <div class="text-start fw-bold mb-3">
+                    <label for="name" class="form-label">Nimi</label>
+                    <input type="text" class="form-control" id="name" placeholder="Jani Partanen">
+                </div>
+                <div class="mb-3 fw-bold text-start">
+                    <label for="message" class="form-label">Viesti</label>
+                    <textarea class="form-control" id="message" rows="6" placeholder="Lyhyt ja ytimekäs viesti"></textarea>
+                </div>
+                <a href="#Characters" class="btn btn-success">Submit</a>
+            </div>
+        </div>
+       </div> 
+    </section>
+    <!-- Somekind of Media-->
+    <p class="fst-italic text-light text-center">Vastaamme viesteihin mahdollisiman pian, viesteihin vastataan myös harkintamme mukaan!</p>
+    <!--Footer-->
+    <div class="section bg-dark border-top border-5 border-success" id="Footer">
+        <div class="div container-xxl">
+            <span class="fw-light text-secondary">
+                Seurahuone 2022 <i class="bi bi-c-circle"></i>
+                Seurahuone Oy - Toteutus: Jani Partanen - Laurea Ammattikorkeakoulu
+            </span>
+        </div>
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>    
+</body>
+</html>
